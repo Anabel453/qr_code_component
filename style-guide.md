@@ -1,31 +1,34 @@
-# Front-end Style Guide
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-## Layout
+.qr-card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  padding: 1rem;
+  max-width: 320px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
 
-The designs were created to the following widths:
+.qr-image {
+  width: 100%;
+  border-radius: 10px;
+}
 
-- Mobile: 375px
-- Desktop: 1440px
+.qr-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  margin: 1rem 0;
+}
 
-> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
-
-## Colors
-
-- White: hsl(0, 0%, 100%)
-
-- Slate 300: hsl(212, 45%, 89%)
-- Slate 500: hsl(216, 15%, 48%)
-- Slate 900: hsl(218, 44%, 22%)
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 15px
-
-### Font
-
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
-- Weights: 400, 700
-
-> 💎 This is a free+ challenge. So, if you want to see all the design details and practice working with professional tools like Figma, you can download the design file from where you downloaded the starter code.
+.qr-text {
+  font-size: 0.9375rem;
+  color: hsl(220, 15%, 55%);
+}
